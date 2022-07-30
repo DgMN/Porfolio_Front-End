@@ -1,0 +1,46 @@
+.cada{
+    width: 80%;
+    padding:30px;
+    display: flex;
+    flex-wrap:nowrap;
+     box-sizing: border-box;
+  }
+  
+.cada-info{
+    width: 60%;
+    display: flex;
+    padding: 40px;
+    flex-direction: column; 
+    font-size: 20px;
+    text-align: right;
+    align-items: flex-end;
+    justify-content: center;
+    border-right: solid 2px black;
+  }
+  .cada-info h4{
+    font-weight: 600;
+    font-size: 30px; 
+  }
+  .cada-img{
+    width: 20%;
+    height:auto;
+    margin: 16px; 
+    box-sizing: border-box;  
+  }
+  .cada-img:hover{
+    
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+  }
+  
+  .img-pros, .img-pros1{
+    border-radius:5px;
+    border: 5px solid rgb(181, 170, 170);
+  }
+  .iconos{
+    display: flex;
+    margin-left: 40px;
+  }
+ 

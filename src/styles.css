@@ -1,0 +1,271 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300;600&family=Exo:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: rgb(33, 33, 33) ;
+  margin: 0 auto;
+  font-family: "Exo", sans-serif;
+}
+
+a,
+a:hover {
+  color: #b900bd;
+  text-decoration: none;
+}
+
+.barra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.logoArgentina {
+  display: block;
+  height: 70px;
+}
+
+.logoArgentina img {
+  height: 100%;
+}
+
+.logosRedes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  height: 100%;
+  padding-right: 10px;
+}
+
+.logos-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.logos-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2.3em;
+  padding: 0 8px;
+  padding-right: 20px;
+}
+
+.logos-list li i {
+  color: #fff;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.login button {
+  width: 100%;
+}
+
+.card{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #d7dce9;
+  border: 2px solid #0d0d0d;
+  border-radius: 2.5rem;
+  margin: 10px 5px;
+}
+
+.background {
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 21px;
+}
+
+.background img {
+  width: 100%;
+  height: auto;
+  border-radius: 28px;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 16px;
+  width: 450px;
+}
+
+.info-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: -80px;
+  z-index: 1;
+}
+
+.info-img a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info-img img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 180px;
+  height: 180px;
+  /*     margin-right: 10px;*/
+  border-radius: 50%;
+  border: 4px solid #070707;
+}
+
+.info-img a i {
+  font-size: 1.5em;
+  margin-top: 145px;
+  color: #0a0a0a;
+  outline: 2px ridge;
+  border-radius: 58%;
+  padding: 5px;
+}
+
+.info-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline-block;
+  padding: 18px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.info-contact {
+  font-size: 1.3rem;
+}
+
+.info-contact span a {
+  color: #910593;
+}
+
+#info-name {
+  font-family: "Akshar";
+  font-size: 2.2rem;
+}
+
+#info-description {
+  font-size: 1.5rem;
+}
+
+.info-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.acerca,
+.edu,
+.skills,
+.proyectos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+#acercaDetails {
+  font-family: "Akshar";
+  font-size: 2.5rem;
+}
+
+
+.edu a i,
+.skills a i,
+.proyectos a i{
+  font-size: 1.3em;
+  color: #070707;
+  outline: 5px ridge #ed06f1;
+  border-radius: 2rem;
+  padding: 5px;
+}
+
+
+.info-img i:hover,
+.edu a i:hover,
+.skills a i:hover,
+.proyectos a i:hover{
+  background-color: rgba(0, 0, 0, 0.6);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.acerca-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 25px;
+  font-size: 1.2rem;
+}
+
+.parrafo {
+  text-indent: 35px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+.parrafo u {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  color: #0dcaf0;
+  font: size 1.8rem;
+}
+
+
+
+
+.visible{
+    opacity:1;
+    transform: scale(1);
+    
+}
+
+
+
+
+

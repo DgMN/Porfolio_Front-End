@@ -1,0 +1,107 @@
+<div class="card "id="container">
+    <div class="acerca" style="padding: 16px;"*ngIf="acercaDe">
+        <h3 id="acercaDetails"><strong>Acerca de</strong></h3>
+        <div >
+            <a
+            (click)="onOpenModal('edit', acercaDe)"
+            class="btn btn-outline-success btn-lg tooltips" 
+            data-placement="top"
+            data-toogle="tooltip"
+            data-original-title="edit"
+            >
+            <i class="fas fa-pen" ></i>
+        </a>
+        </div>    
+    </div>
+    <div class="parrafo"  *ngIf="acercaDe">
+        <p>{{acercaDe.descripAcer}}</p>
+    
+    
+        <!--    <p class="parrafo" id="texto"> Artista audiovisual nacido en <a href="https://goo.gl/maps/TbZHenv7ggLbQhD5A" target="_blank">Luján de Cuyo</a>, cuenta con larga experiencia en el campo de la creacion de imagenes,
+        ha participado en diversos proyectos de cine, televisión y videos para web, en las tareas de realizador, editor y animador. 
+        El encanto por lo visual y la tecnología lo llevó al camino de la programación y el desarrollo web. Autodidacta por naturaleza,
+        desarrolló algunos sitios en wix y wordpress hasta dar un paso importante en el area, desarrollando un Museo virtual en 2d y 3d una WebGL que 
+        utiliza la libreria Three.js y que sirvió como plataforma para una investigación realizada por cientificos del <em><b> Conicet</b></em> sobre<a href="https://mujeresenlaciencia.conicet.gov.ar/" target="_blank"> Mujeres en Ciencia </a>. 
+        Este trabajo insentivó al estudio más formal, buscando profundizar en el area de IT, aprendiendo sobre nuevos lenguajes, frameworks y librerias. El camino está en marcha, el origen es el deseo de conocimiento y
+        el <span class="otro-color"> destino </span> <em><b> =</b></em> <span class="otro-color1"> undefined.</span></p>
+  -->
+    </div>
+</div>
+ <!-- Modal Editar Persona-->
+ <div
+ class="modal fade"
+ id="editAcercaModal"
+ tabindex="-1"
+ role="dialog"
+ aria-labelledby="editAcercaModalLabel"
+ aria-hidden="true"
+>
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editAcercaModalLabel">
+                 Editar Acerca De {{ editarAcerca?.idAcer }}
+                </h5>
+                <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="close"
+                >
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        <div class="modal-body">
+            <form #editForm="ngForm">
+                <div class="form-group">
+                    <label for="idAcer">Id</label>
+                    <input
+                        type="text"
+                        ngModel= "{{ editarAcerca?.idAcer }}"
+                        name="idAcer"
+                        class="form-control"
+                        id="idAcer"
+                        placeholder="id"
+                        required
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="descripAcer">descripcion</label>
+                    <textarea
+                        type="text"
+                        ngModel="{{ editarAcerca?.descripAcer }}"
+                        name="descripAcer"
+                        class="form-control"
+                        id="descripAcer"
+                        rows="10"
+                        cols="50"
+                        placeholder="descripcion"
+                        required
+                        ></textarea>
+                   
+                </div>
+                <div class="modal-footer">
+                    <button
+                        type="button"
+                        id=""
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                    >
+                        Cerrar
+                    </button>
+                    <button
+                        (click)="onUpdateAcercaDe(editForm.value)"
+                        data-dismiss="modal"
+                        class="btn btn-primary"
+                    >
+                        Guardar Cambios
+                    </button>
+                </div>
+            </form>     
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
