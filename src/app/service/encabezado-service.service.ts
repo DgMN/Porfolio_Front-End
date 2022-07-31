@@ -8,7 +8,7 @@ import { persona} from '../Model/persona.model';
   providedIn: 'root'
 })
 export class EncabezadoServiceService {
-  private apiServeUrl = environment.apiBaseUrl;
+  private apiServeUrl = "http://localhost:8080/";
   httpClient: any;
   persona: persona|undefined;
 

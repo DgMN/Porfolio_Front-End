@@ -12,7 +12,7 @@ const AUTHORITIES_KEY = 'AuthAuthorities';
 })
 
 export class PersonaService {
-  private apiServeUrl = environment.apiBaseUrl;
+  private apiServeUrl = "http://localhost:8080/";
 
   constructor(private http: HttpClient) { }
 

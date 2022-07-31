@@ -8,7 +8,7 @@ import { edu } from '../Model/edu';
   providedIn: 'root'
 })
 export class EduService {
-  private apiServeUrl= environment.apiBaseUrl;
+  private apiServeUrl= "http://localhost:8080/";
 
   constructor(private http: HttpClient) {}
 

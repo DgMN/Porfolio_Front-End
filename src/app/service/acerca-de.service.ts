@@ -9,7 +9,7 @@ import { AcercaDe } from '../Model/acercaDe';
 })
 export class AcercaDeService {
 
-  private apiServeUrl = environment.apiBaseUrl;
+  private apiServeUrl = "http://localhost:8080/"
 
   constructor(private http:HttpClient) { }
 
