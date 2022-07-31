@@ -10,7 +10,7 @@ import { LoginUsuario } from '../Model/login-usuario';
   providedIn: 'root'
 })
 export class AuthService {
- authUrl = "http://localhost:8080/auth/";
+ authUrl = "https://djaltsyn-porfolio-back-end.herokuapp.com/auth/";
   constructor(private http: HttpClient) { }
 
   public nuevo(nuevoUser:nuevoUsuario):Observable<any>{
