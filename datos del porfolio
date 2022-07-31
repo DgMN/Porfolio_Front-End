@@ -1,0 +1,262 @@
+Estos son los datos de la persona, educacion, proyectos, skills y acerca de que estaban cargados en MySql y no pude subir a las tablas de Clever cloud 
+
+
+persona
+
+{
+
+"id": 1,
+
+"nombre": "Diego _ 'djaltsyn' _ ",
+
+"apellido": "Najurieta ",
+
+"titulo": "FullStackDeveloper _ AudiovisualMaker",
+
+"descripcion": "Luján de Cuyo _ Mendoza _ Argentina",
+
+"img": "https://acortar.link/ao9DML",
+
+"eduList": [ ],
+
+"skillsList": [ ],
+
+"proyectList": [ ]
+
+}
+
+educacion 
+
+{
+
+"idEdu": 2,
+
+"tituloEdu": "#SeProgramar",
+
+"fechaEdu": 2021,
+
+"descrEdu": "La primera etapa de Argentina Programa es un curso introductorio en el que aprendes los fundamentos básicos de la programación para dar tus primeros pasos en el mundo tecnológico.",
+
+"imagenEdu": "https://acortar.link/aU2FwI"
+
+},
+
+{
+
+"idEdu": 3,
+
+"tituloEdu": "Fundamentos de la programación",
+
+"fechaEdu": 2021,
+
+"descrEdu": "Curso introductorio en el que aprendes los fundamentos básicos de la programación.",
+
+"imagenEdu": "https://acortar.link/FDy9P4"
+
+},
+
+{
+
+"idEdu": 4,
+
+"tituloEdu": "Web Full Stack",
+
+"fechaEdu": 2021,
+
+"descrEdu": "Seis meses y medio de aprendizaje para programar páginas web increíbles completamente desde cero, dominando tanto el Front End como el Back End. Para ello harás un uso intensivo de herramientas y lenguajes como HTML, CSS, JavaScript, Java, SpringBoot.",
+
+"imagenEdu": "https://acortar.link/rQ2xSq"
+
+},
+
+{
+
+"idEdu": 7,
+
+"tituloEdu": "Módulo Gobernanza de Datos",
+
+"fechaEdu": 2022,
+
+"descrEdu": "Data governance o gobierno de datos es la gestión de la disponibilidad, integridad, usabilidad y seguridad de los datos utilizados en una empresa.",
+
+"imagenEdu": "https://acortar.link/957Wd5"
+
+},
+
+{
+
+"idEdu": 8,
+
+"tituloEdu": "Módulo Gobernanza de Inteligencia Artificial",
+
+"fechaEdu": 2022,
+
+"descrEdu": "UBA IALAB _ Orientación global, ética, legal, técnica y operacional para lograr la trazabilidad de los sistemas de Inteligencia Artificial y su auditoría",
+
+"imagenEdu": "https://acortar.link/V0MR3f"
+
+}
+
+
+
+
+
+
+
+proyectos
+
+
+
+{
+
+"idProyect": 41,
+
+"tituloProyect": "Mujeres en la Ciencia",
+
+"descripProyect": "Fue realizado con Three.js, una biblioteca liviana escrita en JavaScript para crear y mostrar gráficos animados por computadora en 3D en un navegador Web y puede ser utilizada en conjunción con el elemento canvas de HTML5, SVG o WebGL.",
+
+"fotoProyect": "https://acortar.link/WnXu75",
+
+"linkProyect": "https://mujeresenlaciencia.conicet.gov.ar/"
+
+},
+
+{
+
+"idProyect": 42,
+
+"tituloProyect": "Encriptador-Desencriptador de Textos",
+
+"descripProyect": "Es una aplicación que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.",
+
+"fotoProyect": "https://acortar.link/gVeIT3",
+
+"linkProyect": "https://dgmn.github.io/Ecriptador-Alura/"
+
+}
+
+
+
+skills 
+
+{
+
+"idSkill": 53,
+
+"nombreSkill": "CSS",
+
+"imgSkill": "https://acortar.link/WLbCf8",
+
+"progresoSkill": 82,
+
+"color1": "#0000FF",
+
+"color2": "#01BFFE",
+
+"color3": "#59f9f7"
+
+},
+
+{
+
+"idSkill": 54,
+
+"nombreSkill": "HTML",
+
+"imgSkill": "https://acortar.link/orizMm",
+
+"progresoSkill": 89,
+
+"color1": "#E54C21",
+
+"color2": "#FFA346",
+
+"color3": "#FF8000"
+
+},
+
+{
+
+"idSkill": 55,
+
+"nombreSkill": "JS",
+
+"imgSkill": "https://acortar.link/pvrgoL",
+
+"progresoSkill": 75,
+
+"color1": "#FFBF00",
+
+"color2": "#FFFF00",
+
+"color3": "#000000"
+
+},
+
+{
+
+"idSkill": 56,
+
+"nombreSkill": "Angular",
+
+"imgSkill": "https://acortar.link/lyEtYQ",
+
+"progresoSkill": 70,
+
+"color1": "#DD0030",
+
+"color2": "#E0017C",
+
+"color3": "#E10033"
+
+},
+
+{
+
+"idSkill": 57,
+
+"nombreSkill": "Java",
+
+"imgSkill": "https://acortar.link/GUuIna",
+
+"progresoSkill": 75,
+
+"color1": "#0C6FB6",
+
+"color2": "#E11E21",
+
+"color3": "#0C6FB6"
+
+},
+
+{
+
+"idSkill": 66,
+
+"nombreSkill": "Spring Boot",
+
+"imgSkill": "otra img",
+
+"progresoSkill": 87,
+
+"color1": "#34495E ",
+
+"color2": "#85929E",
+
+"color3": "#D6DBDF"
+
+}
+
+
+
+acercaDe 
+
+
+
+{
+
+"descripAcer": "Artista audiovisual nacido en Luján de Cuyo, Mendoza, cuenta con larga experiencia en el campo de la creacion de imagenes, ha participado en diversos proyectos de cine, televisión y videos para web, en las tareas de realizador, editor y animador. El encanto por lo visual y la tecnología lo llevó al camino de la programación y el desarrollo web. Autodidacta por naturaleza, desarrolló algunos sitios en wix y wordpress hasta dar un paso importante en el area, desarrollando con un amigo, un Museo virtual en 2d y 3d. Una WebGL que utiliza la libreria Three.js y que sirvió como plataforma para una investigación realizada por cientificos del Conicet sobre Mujeres en Ciencia . Este trabajo insentivó al estudio más formal, buscando profundizar en el area de IT, aprendiendo sobre nuevos lenguajes, frameworks y librerias. El camino está en marcha, el origen es el deseo de conocimiento y el destino = undefined!.",
+
+"idAcer": 58
+
+}
