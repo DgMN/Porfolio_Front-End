@@ -8,7 +8,7 @@ import { edu } from '../Model/edu';
   providedIn: 'root'
 })
 export class EduService {
-  private apiServeUrl= "https://djaltsyn-porfolio-back-end.herokuapp.com/";
+  private apiServeUrl= "https://djaltsyn-porfolio-back-end.herokuapp.com";
 
   constructor(private http: HttpClient) {}
 

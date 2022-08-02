@@ -9,7 +9,7 @@ import { AcercaDe } from '../Model/acercaDe';
 })
 export class AcercaDeService {
 
-  private apiServeUrl = "https://djaltsyn-porfolio-back-end.herokuapp.com/"
+  private apiServeUrl = "https://djaltsyn-porfolio-back-end.herokuapp.com"
 
   constructor(private http:HttpClient) { }
 

@@ -8,7 +8,7 @@ import { persona} from '../Model/persona.model';
   providedIn: 'root'
 })
 export class EncabezadoServiceService {
-  private apiServeUrl = "https://djaltsyn-porfolio-back-end.herokuapp.com/";
+  private apiServeUrl = "https://djaltsyn-porfolio-back-end.herokuapp.com";
   httpClient: any;
   persona: persona|undefined;
 

@@ -9,7 +9,7 @@ import { Proyectos } from '../Model/proyecto';
 })
 export class ProyectosService {
 
-  private apiServeUrl= "https://djaltsyn-porfolio-back-end.herokuapp.com/";
+  private apiServeUrl= "https://djaltsyn-porfolio-back-end.herokuapp.com";
 
   constructor(private http: HttpClient) {}
 

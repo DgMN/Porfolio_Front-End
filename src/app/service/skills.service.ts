@@ -9,7 +9,7 @@ import { skills } from '../Model/skills';
 })
 export class SkillsService {
 
-  private apiServeUrl = "https://djaltsyn-porfolio-back-end.herokuapp.com/";
+  private apiServeUrl = "https://djaltsyn-porfolio-back-end.herokuapp.com";
 
 
   constructor(private http: HttpClient) {}

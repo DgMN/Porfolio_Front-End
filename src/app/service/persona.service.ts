@@ -12,7 +12,7 @@ const AUTHORITIES_KEY = 'AuthAuthorities';
 })
 
 export class PersonaService {
-  private apiServeUrl = "https://djaltsyn-porfolio-back-end.herokuapp.com/";
+  private apiServeUrl = "https://djaltsyn-porfolio-back-end.herokuapp.com";
 
   constructor(private http: HttpClient) { }
 
